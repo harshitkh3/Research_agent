@@ -7,7 +7,7 @@ export const handleDownloadPDF = (reportHtml) => {
   printWindow.document.write(`
     <html>
       <head>
-        <title>Research Report - Antigravity</title>
+        <title>Research Report</title>
         <style>
           body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;

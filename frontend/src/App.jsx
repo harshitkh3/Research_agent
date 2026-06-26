@@ -28,7 +28,6 @@ function App() {
     "Latest breakthroughs in Nuclear Fusion energy production",
     "SpaceX Starship orbital launches and Mars colonization timeline",
     "Impact of generative AI agents on software engineering by 2027",
-    'New'
   ];
 
   const handleSearch = () => {
@@ -73,7 +72,7 @@ function App() {
         {/* Error State */}
         {error && (
           <div className="bg-red-950/20 border border-red-900/50 p-4 rounded-xl flex items-start gap-3">
-            <AlertCircle className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" />
+            <AlertCircle className="w-5 h-5 text-red-500 mt-0.5 shrink-0" />
             <div>
               <h4 className="font-semibold text-red-400 text-sm">Failed to generate report</h4>
               <p className="text-xs text-red-300 mt-1">{error}</p>
