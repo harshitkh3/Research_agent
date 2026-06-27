@@ -11,3 +11,5 @@ wheels/
 .env
 trial.ipynb
 data.json
+op.md
+auth_implementation_plan.md
